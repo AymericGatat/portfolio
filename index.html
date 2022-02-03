@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!--Icones-->
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>Aymeric Gatat</h1>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#works">Works</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="home" id="home">
+            <article>
+                <div class="title">
+                    <h1>Hi, I'm <span>Aymeric Gatat</span></h1>
+                    <h2><span>Web developper</span></h2>
+                </div>
+                <div class="reseau">
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/aymericgatat/" target="_blank">
+                                <i class='bx bxl-linkedin-square'></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.figma.com/@aymericgatat" target="_blank">
+                                <i class='bx bxl-figma'></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/AymericGatat" target="_blank">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+            <div class="button">
+                <a href="download/CV_Aymeric_Gatat_Alternace_Devoleppeur_Frontend.pdf">Curricuelum
+                    VItae</a>
+            </div>
+
+            <div class="home_img">
+                <img src="assets/logo.png" alt="profil_picture">
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h2>About me</h2>
+            <div class="text">
+                <p>Jeune développeur web de 22 ans, je suis spécialisé dans le développement front-end
+                    principalement.<br>
+                    Dynamique et rigoureux, j'ai réalisé plusieurs projets visibles sur ce site.<br>
+                    N'hésitez pas à me contacter sur mes réseaux si vous êtes intéressés par mes services.
+                </p>
+            </div>
+            <div class="img">
+                <img src="assets/work3.jpg" alt="">
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <div class="barre" id="html">
+                <div class="info">
+                    <div class="text">
+                        <i class='bx bxl-html5'></i>
+                        <h3 class="nom_competence">HTML5</h3>
+                    </div>
+                    <h3 class="pourcentage">90%</h3>
+                </div>
+            </div>
+            <div class="barre" id="css">
+                <div class="info">
+                    <div class="text">
+                        <i class='bx bxl-css3'></i>
+                        <h3 class="nom_competence">CSS3</h3>
+                    </div>
+                    <h3 class="pourcentage">85%</h3>
+                </div>
+            </div>
+            <div class="barre" id="js">
+                <div class="info">
+                    <div class="text">
+                        <i class='bx bxl-javascript'></i>
+                        <h3 class="nom_competence">Java Script</h3>
+                    </div>
+                    <h3 class="pourcentage">60%</h3>
+                </div>
+            </div>
+        </section>
+        <section class="works" id="works">
+            <h2>Portfolio</h2>
+            <div class="slidershow middle">
+                <div class="slides">
+                    <input type="radio" name="r" id="r1" checked>
+                    <input type="radio" name="r" id="r2">
+                    <input type="radio" name="r" id="r3">
+                    <input type="radio" name="r" id="r4">
+                    <div class="slide s1">
+                        <img src="assets/projets/kobe_website.png">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/projets/memories_projet.png">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/projets/default.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/projets/default.jpg">
+                    </div>
+
+                    <div class="navigation">
+                        <label for="r1" class="bar"></label>
+                        <label for="r2" class="bar"></label>
+                        <label for="r3" class="bar"></label>
+                        <label for="r4" class="bar"></label>
+                    </div>
+
+                </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contact</h2>
+            <form class="contact-form" action="contact.php" method="post">
+                <div class="info">
+                    <input type="text" id="name" name="name" placeholder="Nom">
+                    <input type="text" id="surname" name="surname" placeholder="Prenom">
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    <input type="text" id="object" name="object" placeholder="Objet">
+                </div>
+                <textarea name="message" placeholder="Message" wrap="soft"></textarea>
+                <button type="submit" name="submit">Envoyer</button>
+            </form>
+        </section>
+        <footer>
+            <span>©Copyright 2022 - Tous droits réservés</span>
+            <div class="footer_reseau">
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/aymericgatat/" target="_blank">
+                            <i class='bx bxl-linkedin-square'></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.figma.com/@aymericgatat" target="_blank">
+                            <i class='bx bxl-figma'></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/AymericGatat" target="_blank">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
